@@ -1,4 +1,4 @@
-# Step 4: Testing, Verification & Usage
+# Step 5: Testing, Verification & Usage
 
 Now that the partitions and encrypted persistence are set up, it’s time to **verify everything works** and give some usage tips.
 
@@ -11,5 +11,8 @@ Now that the partitions and encrypted persistence are set up, it’s time to **v
 3. Enter the **LUKS passphrase** when prompted.
 4. Once logged in, confirm that the persistence partition is mounted:
 
-```bash
-lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT
+   Create a test file or folder
+
+5. Reboot again.
+6. after booting if still created file existed it working fine.
+
